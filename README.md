@@ -32,6 +32,9 @@ able to detect if the application is 'up', meaning it is functioning correctly, 
 'down', indicating that it is unavailable or not responding.
 
 # Explanation
+To create an application health checker script, we will use Bash along with curl to check the HTTP status codes of an application. The script will determine if the application is 'up' (functioning correctly) or 'down' (unavailable or not responding).
+
+Save the script as health_checker.sh and make it executable:
 
 01 Usage Check: The script first checks if a URL is provided as an argument. If not, it prints the usage and exits.
 
