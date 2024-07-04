@@ -1,0 +1,2 @@
+chmod +x log_analyzer.sh
+./log_analyzer.sh /path/to/logfile
